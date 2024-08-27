@@ -1,0 +1,152 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    color: red;
+    position: relative;
+    
+}
+.video-content h1{
+    font-weight: 3000;
+    font-size: 100px;
+}
+.video-container
+{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    
+
+}
+.video-content
+{
+    z-index: 1;
+}
+.video-content a{
+    background-color: green;
+    color: white;
+    padding: 20px 60px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+    
+
+
+}
+.video-content a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+#recipe1
+{
+    margin-top: 100px;
+    margin-left:50px ;
+}
+.briyani 
+{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.fish
+{
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+
+#recipe1 h1{
+    color: blue;
+    text-decoration: underline;
+}
+#recipe1 h2{
+    color:orange;
+    text-decoration: underline;
+}
+#recipe1 p{
+    line-height: 1.5;
+    
+}
+
+#recipe1 p::first-letter{
+    color: red;
+    font-size: 100px;
+    
+}
+
+.foot
+{
+    text-align: center;
+}
+.foot i{
+    color: blueviolet;
+}
+.foot h1 
+{
+    color: blueviolet;
+}
+.foot h2{
+    color: blueviolet;
+
+}
+#recipe2 h1
+{
+    margin-left: 50px;
+    color: limegreen;
+    text-decoration: underline;
+    
+    
+}
+#recipe2 p
+{
+    line-height: 1.2;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+#recipe2 p::first-letter
+{
+    color:red;
+    font-size: 100px;
+}
+.hero
+{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+#recipe2 h2{
+    color: deeppink;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+.rasam
+{
+    margin-top: 30px;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+.payasam
+{
+    margin-top:30px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+.menu
+{
+    margin-top: 30px;
+    margin-left:250px;
+
+}
+
+
